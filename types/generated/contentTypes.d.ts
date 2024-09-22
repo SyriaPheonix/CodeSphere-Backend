@@ -22,6 +22,7 @@ export interface ApiCourseCourse extends Struct.CollectionTypeSchema {
     duration: Schema.Attribute.Integer;
     description: Schema.Attribute.Text;
     whatsIncludes: Schema.Attribute.Text;
+    discount: Schema.Attribute.Integer;
     createdAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     publishedAt: Schema.Attribute.DateTime;

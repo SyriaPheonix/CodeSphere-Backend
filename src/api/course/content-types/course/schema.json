@@ -51,6 +51,9 @@
     },
     "whatsIncludes": {
       "type": "text"
+    },
+    "discount": {
+      "type": "integer"
     }
   }
 }
