@@ -16,13 +16,13 @@ export interface ApiCourseCourse extends Struct.CollectionTypeSchema {
     category: Schema.Attribute.Enumeration<
       ['frontend', 'backend', 'mobile', 'database', 'games', 'cyper security']
     >;
-    image: Schema.Attribute.Media<
+    banner: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios',
       true
     >;
     price: Schema.Attribute.Decimal;
     students: Schema.Attribute.Integer;
-    hours: Schema.Attribute.Integer;
+    duration: Schema.Attribute.Integer;
     description: Schema.Attribute.Text;
     whatsIncludes: Schema.Attribute.Text;
     createdAt: Schema.Attribute.DateTime;
