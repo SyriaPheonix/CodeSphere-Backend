@@ -16,10 +16,7 @@ export interface ApiCourseCourse extends Struct.CollectionTypeSchema {
     category: Schema.Attribute.Enumeration<
       ['frontend', 'backend', 'mobile', 'database', 'games', 'cyper security']
     >;
-    banner: Schema.Attribute.Media<
-      'images' | 'files' | 'videos' | 'audios',
-      true
-    >;
+    banner: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     price: Schema.Attribute.Decimal;
     students: Schema.Attribute.Integer;
     duration: Schema.Attribute.Integer;
