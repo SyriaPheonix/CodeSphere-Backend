@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courses",
+  "info": {
+    "singularName": "course",
+    "pluralName": "courses",
+    "displayName": "course",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "frontend",
+        "backend",
+        "mobile",
+        "database",
+        "games",
+        "cyper security"
+      ]
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "students": {
+      "type": "integer"
+    },
+    "hours": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "text"
+    },
+    "whatsIncludes": {
+      "type": "text"
+    }
+  }
+}
