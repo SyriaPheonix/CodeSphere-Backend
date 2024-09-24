@@ -517,7 +517,7 @@ export interface ApiCourseCourse extends Struct.CollectionTypeSchema {
         },
         number
       >;
-    releaseDate: Schema.Attribute.Date;
+    publishDate: Schema.Attribute.Date;
     createdAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     publishedAt: Schema.Attribute.DateTime;
